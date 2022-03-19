@@ -8,7 +8,7 @@ import java.util.List;
 public class Application {
     public static void main(String[] args) {
         Cart cart = new Cart();
-        Product product = new Product("Apple Pencil (2nd Generation)");
+        Product product = new Product("Apple Pencil");
         cart.add(product);
 
         System.out.println("Cart = " + cart);
