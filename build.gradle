@@ -1,5 +1,13 @@
 plugins {
     id 'java'
+    id "application"
+}
+ext {
+    javaMainClass = "com.ddd_bootcamp.application.Application"
+}
+
+application {
+    mainClassName = javaMainClass
 }
 
 group 'org.example'
