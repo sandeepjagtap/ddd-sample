@@ -16,6 +16,8 @@ public class Cart {
 
     @Override
     public String toString() {
-        return products.toString();
+        return "Cart{" +
+                "products=" + products +
+                '}';
     }
 }
